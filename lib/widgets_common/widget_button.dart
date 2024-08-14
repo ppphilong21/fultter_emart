@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 
 Widget widgetButton({onPress, color, textColor,String? title}) {
   return ElevatedButton(
-    onPressed: () {
-      onPress;
-    },
+    onPressed: onPress,
     style: ElevatedButton.styleFrom(
         backgroundColor: color,
         padding: const EdgeInsets.all(12)),
